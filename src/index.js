@@ -8,6 +8,8 @@ const raf = global.requestAnimationFrame = (cb) => {//to stop requestAnimationFr
   setTimeout(cb, 0);
 }
 
+//We pass a function to CreateStore, this function is called a reducer, it takes state and action and return the next state
+//of the app
 const store = createStore(function(state, action) {
   const _state = state == null ? {
     donate: 0,
