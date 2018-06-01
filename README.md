@@ -13,3 +13,8 @@ A code challenge made with react js
 4. run `yarn server` in a terminal to launch the json-server
 5. run `yarn client` in another terminal to launch webpack-dev-server 
 5. visit <http://localhost:3000/> 
+
+
+======
+
+![alt text](https://raw.githubusercontent.com/felix8971/code-challenge-react/master/resources/tamboon-react-screenshot.jpg)
