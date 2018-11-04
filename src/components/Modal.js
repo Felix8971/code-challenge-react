@@ -10,6 +10,7 @@ class Modal extends React.Component {
       return null;
     }
 
+
     //The background
     const BackdropStyle = styled.div`
       position:fixed;

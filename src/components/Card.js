@@ -128,7 +128,8 @@ const TestH1 = styled.h1.attrs({
 })`
 `;
 
-export default connect((state) => state)(
+export default connect((state) => state)( //link the component to the store
+
   class Card extends React.Component {
     constructor(props) {
       super(props);
@@ -225,7 +226,8 @@ function handlePay(id, amount, currency) {
     })
       .then(function(resp) { return resp.json(); })
       .then(function() {
-        self.props.dispatch({
+        
+        self.props.dispatch({//
           type: 'UPDATE_TOTAL_DONATE',
           amount,
         });
